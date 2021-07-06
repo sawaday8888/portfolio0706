@@ -493,14 +493,17 @@ footer{
 
 .footer-menu-sm ul{
   display: flex;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .footer-menu-sm li{
-  width: 100%;
   text-align: center;
-  padding: 20px 5px;
-  letter-spacing: 2px;
-  font-size: 12px;
+  margin: 0 auto;
+  padding: 20px 0;
+  letter-spacing: 1px;
+  font-size: 10px;
 }
 
 .footer-menu-sm li:hover{
