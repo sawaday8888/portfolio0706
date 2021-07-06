@@ -1,0 +1,375 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body {
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: rgb(255, 255, 255);
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: rgb(0, 0, 0);
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  vertical-align: bottom;  
+}
+
+header{
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+
+.header-cover{
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 1000;
+}
+
+header img{
+  height: 30px;
+  width: 100px;
+  padding-top:10px ;
+}
+
+header .fa-bars{
+  float: right;
+  padding: 20px 20px 0px 0px ;
+}
+
+.header-navi{
+  height: 390px;
+  width: 100%;
+  padding-top: 20px;
+  background-color: black;
+  text-align: left;
+  transform: translateY(-150%);
+  transition: 0.5s;
+}
+
+.header-menu li{
+  padding: 18px 0px;
+  border-bottom: 1px solid white;
+}
+
+.header-menu li a{
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+.header-menu li a:hover{
+  text-decoration: underline;
+}
+
+.header-menu .fas{
+ padding: 0px 5px;
+}
+
+.header-icons{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+
+.header-icons a{
+  padding: 15px 10px 5px 10px;
+  display: inline-block;
+}
+
+.drawer-btn:checked ~ .header-navi{
+  transform: translateY(10%);
+}
+
+.drawer-btn{
+  position:absolute;
+  right: 19px;
+  top:18px;
+  transform:scale(1.5);
+  opacity: 0;
+  z-index: 2000;
+}
+
+.sidebar{
+  width: 20%;
+  position: fixed;
+  right: 0;
+  height: 100%;
+}
+
+.side-logo{
+  height:23px ;
+  width: 91px;
+  padding:25px 0px 45px 0px;
+}
+
+.side-contents{
+  padding-left: 20%;
+}
+
+.side-menu li a{
+  color: #fff;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size: 14px;
+}
+
+.side-menu li a:hover{
+ text-decoration: underline;
+}
+
+.side-menu li{
+  padding-bottom: 25px;
+
+}
+
+.side-icons .fab{
+  padding:45px 10px 0px 0px;
+}
+
+.side-icons .fab:hover{
+  opacity: 0.8;
+}
+
+.contents{
+  width: 80%;
+}
+
+.top-image{
+  width: 100%;
+}
+
+.message-wrapper{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading{
+  text-align: center;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size: 22px;
+  padding:80px 0px 20px 0px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid white;
+  display: inline-block;
+}
+
+.textarea{
+  width: 95%;
+  margin: 0 auto;
+  font-size:12px;
+  padding-bottom: 80px;
+}
+
+.photo-wrapper img{
+  width: 33.3333333333%;
+}
+
+span .bigphoto{
+  width: 100%;
+}
+
+.brand-wrapper{
+  width: 80%;
+  margin:0 auto;
+  text-align: center;
+  
+}
+
+.brand-contents{
+  display: flex;
+  padding-bottom: 50px;
+  border-bottom:1px solid white;
+  
+
+}
+
+.contents-item{
+  width: 25%;
+  padding:0% 20px;
+  font-size: 10px;
+  text-align: left;
+  
+}
+
+.contents-item img{
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.contents-item p{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.project-wrapper{
+  width: 80%;
+  margin:0 auto;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid white;
+}
+
+.project-item {
+  padding-bottom: 70px;
+}
+
+.project-item img{
+  width: 375px;
+  height: 225px;
+  padding-right: 25px;
+  float:left;
+
+}
+
+.project-item p{
+  text-align: left;
+}
+
+.company-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 250px;
+}
+
+.company-contents{
+  display: flex;
+  padding-top: 30px;
+}
+
+.adress{
+  text-align: left;
+  margin-right: 10%;
+}
+
+.ggmap{
+  width: 60%;
+  position:relative;
+}
+
+iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  text-align: center;
+  font-size:12px;
+}
+
+footer p{
+  padding-bottom: 60px;
+}
+
+.end-hp{
+  color:blue;
+}

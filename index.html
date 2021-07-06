@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/767aa784e4.js" crossorigin="anonymous"></script>
+  
+  <title>Sawaya’s  Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+  <link rel="stylesheet" type="text/css" href="slick.css">
+  <link rel="stylesheet" type="text/css" href="slick-theme.css">
+  <script src="jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="header-lg">
+      <div class="header-lg-container">
+        <div class="header-lg-menu"> 
+          <div class="header-left">
+            <h1 class="title-lg">Sawaya’s Portfolio</h1>
+          </div>
+        </div>
+
+        <div class="header-lg-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-sm">
+      <h1 class="title-sm">Sawaya's Portfolio</h1>
+      <nav class="nav">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+      <button type="button" id="navbtn"></button>
+    </div>  
+  </header>
+
+  <div class="top">
+    <img class="top-image" src="image/top-image.png" />
+  </div>
+
+  <div class="about-wrapper">
+    <div class="about-conteiner">
+      <h1 class="heading" id="about">About</h1>
+      <div class="about-contents">
+        <img class="myPhoto" src="image/profile.png">
+        <div class="about-text">
+          <p class="name">澤谷 知輝　tomoki sawaya</p>
+          <p class="mainText">北海道出身、函館高専/専攻科で電気電子をメインにプログラムや機構を学んだ後、飲食店ECサイト会社に入社、飲食店にサイト運用のサポート業務を経て、現在は育休中。Webとゲームの作成知識も身につけるべく、2021年6月から育児の合間を見て、Webページ作成とゲーム作成を学びはじめました。”モノ作り”を通して人に喜んでもらうこと、役に立てることを目指し、日々精進しております。</br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-wrapper">
+    <div class="skills-container">
+      <h1 class="heading" id="skills">Skills</h1>
+      <div class="skills-contents">
+        <div class="skills-item">
+          <h2 class="item-name01">コーディング</h2>
+          <p class="item-subName">CODING</p>
+          <i class="fas fa-laptop-code fa-5x"></i>
+          <p class="skillText">HTML/CSSをベースに、Webサイトを作成します。デザイン・文章などのご要望をヒアリングしながら、忠実にコーディング致します。また、スマートフォンサイトなど、ご希望のデバイスに合わせたレスポンシブデザインも可能です。</p>
+        </div>
+        <div class="skills-item">
+          <h2 class="item-name02">ゲーム制作</h2>
+          <p class="item-subName">GAME PRODUCTION</p>
+          <i class="fas fa-gamepad fa-5x"></i>
+          <p class="skillText">Java Scriptを使用し、簡単なWebブラウザゲームを作成します。（将来的には、C#（Unity)を使用し、スマートフォンなどのアプリゲーム作成をします）</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="works-wrapper">
+    <div class="works-container">
+      <h1 class="heading" id="works">WORKS</h1>
+      <p class="mainText">過去の制作物をご紹介します。</p>
+      <div class="works-contents">
+        
+        <h2 class="item-subText">CORDING</h2>
+        <div class="web-works">
+            <div class="web01">
+              <a href="fashion/index.html"><img src="image/coding-sample01.png"></a>
+              <p>模写コーディングした作品です。</p>
+            </div>
+            <div class="web02">
+              <a href="#"><img src="image/comingSoon.png"></a>
+              <p>Coming soon...</p>
+            </div>
+            <div class="web03">
+              <a href="#"><img src="image/comingSoon.png"></a>
+              <p>Coming soon...</p>
+            </div>
+        </div>
+
+        <h2 class="item-subText">GAME PRODUCT</h2>
+        <div class="game-works">
+          <div class="game01">
+            <a href="JSクイズゲーム/quizGame.html"><img src="image/game-sample01.png"></a>
+            <p>javascriptで作成した簡単なクイズゲームです。</p>
+          </div>
+          <div class="game02">
+            <a href="#"><img src="image/comingSoon.png"></a>
+            <p>Coming sonn...</p>
+          </div>
+          <div class="game03">
+            <a href="#"><img src="image/comingSoon.png"></a>
+            <p>Coming sonn...</p>
+          </div>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-wrapper">
+    <div class="contact-container">
+      <h1 class="heading" id="contact">CONTACT</h1>
+      <div class="input-form">
+        <div class="inputWithIcon">
+          <input type="text" placeholder="not yet open for business">
+          <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+        
+        <div class="inputWithIcon">
+          <input type="text" placeholder="not yet open for business">
+          <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+      </div>
+      <input class="button" type="submit" value="SEND">
+    </div>
+ </div>
+
+ <footer>
+   <div class="footer-contents">
+     <div class="footer-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+ </footer>
+
+ <script src="jquery-3.6.0.min.js"></script>
+ <script type="text/javascript" src="script.js"></script>
+ <script type="text/javascript" src="slick.min.js"></script>
+</body>
+
+</html>
