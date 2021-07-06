@@ -477,15 +477,32 @@ footer{
   background-color: whitesmoke;
 }
 
-.footer-menu ul{
+.footer-menu-lg ul{
   display: flex;
 }
 
-.footer-menu li{
-  padding: 25px 25px;
+.footer-menu-lg li{
+  padding: 20px 25px;
   letter-spacing: 2px;
+  font-size: 16px;
 }
 
-.footer-menu li:hover{
+.footer-menu-lg li:hover{
+  text-decoration: underline;
+}
+
+.footer-menu-sm ul{
+  display: flex;
+}
+
+.footer-menu-sm li{
+  width: 100%;
+  text-align: center;
+  padding: 20px 5px;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.footer-menu-sm li:hover{
   text-decoration: underline;
 }
